@@ -71,7 +71,8 @@ public:
         return ("El valor en la posicion " + to_string(i) + " es: " + to_string(T[i]));
     }
 
-    /* Funcion que limpia el arreglo */
+    /* Funcion que limpia el arreglo, establece el número de elementos inicializados */
+    /* en 0, por lo tanto, cualquiwr indice en a, b o T contiene basura */
     string limpiar() {
         ctr = 0;
         return ("Arreglo limpiado satisfactoriamente.");
