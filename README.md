@@ -20,6 +20,7 @@ Luego, al ejecutar, solo colocar de parámetro, el tamaño del arreglo virtual.
 Ejemplo:
 
 > g++ -o arreglovirtual ArregloVirtual.cpp
+
 > ./arreglovirtual 5
 
 Esto le permitirá ejecutar el programa con un arreglo de tamaño 5 (posiciones del 0 al 4).
